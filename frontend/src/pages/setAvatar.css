@@ -1,0 +1,41 @@
+.set-avatar-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+}
+
+.title-containter {
+    color: white;
+    margin: 20px;
+}
+
+.avatars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.avatar-box {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.set-button {
+    background-color: #F05454;
+    color: white;
+    margin: 30px;
+    padding: 1rem 2rem;
+    border: 1px solid #DDDDDD;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
